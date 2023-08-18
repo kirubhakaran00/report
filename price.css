@@ -1,0 +1,33 @@
+
+body
+{
+   background-color: rgb(47, 51, 50);
+   
+}
+td,th{
+    
+    border:1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    padding: 10px;    
+}
+table{
+    font-size: x-large;
+    background-color: rgb(63, 23, 23);
+    color: rgb(3, 55, 122);
+    width: 100%;
+    padding: 80px;
+    background-image: url("https://images.unsplash.com/photo-1502462041640-b3d7e50d0662?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y29mZmVlJTIwY3VwJTIwcG5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.co{
+    color: rgb(6, 68, 238);
+}
+h1{
+    color: burlywood;
+}
+td:hover{
+    background-color: aliceblue;
+}

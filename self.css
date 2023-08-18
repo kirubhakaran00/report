@@ -1,0 +1,55 @@
+body{
+    color: rgb(0, 0, 0);
+    background-image: url(https://images.unsplash.com/photo-1512386233331-f023884a92e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGJhY2tncm91bmQlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+div{
+    margin: auto;
+    text-align: center;
+}
+.heightlight
+{
+    display: block;
+}
+.new{
+    display: inline-block;
+    color: rgb(231, 45, 12);
+    text-align: center;
+}
+.mark{
+    color: rgb(231, 45, 12);
+    text-align: center;
+}
+h2{ 
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background: rgb(102, 92, 92);
+    transition: width 2s, height 2s, transform 2s;
+
+}
+h2:hover{
+    height: 30px;
+    width: 200px;
+   transform: scale3d(1,2,3)
+}
+.love{
+    width: 100px;
+    height: 80px;
+    background: rgb(71, 83, 68);
+    transition: width 2s, height 2s, transform 2s;
+    
+}
+.love:hover{
+    height: 100px;
+    width: 500px;
+    transform: scaleX(1);
+}
+button:hover{
+    background-color: brown;
+}
+
